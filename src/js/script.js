@@ -3,8 +3,37 @@ let nome = prompt("Insira seu nome: ");
 let estado = prompt("Insira o seu estado: ")
 alert(`Cadastro realizado!\nSeja bem vindo ${nome}, Veja os detalhes no console.`);
 
-console.log(`Cabernet 2020: `)
+console.log(`Olá ${nome}, esses são os nossos vinhos disponíveis para o estado de ${estado}: `);
 
-console.log(`Sauvignon Blanc 2023: `)
+console.log(`Cabernet 2020:
+TIPO - tinto
 
-console.log(`Viejo Feo Reserva Pinot Noir Rosé 2024: `)
+SAFRA - 2020
+
+ESTOQUE - 15  
+
+PAÍS - França 
+`);
+
+
+console.log(`Sauvignon Blanc 2023:
+TIPO - tinto
+
+SAFRA - 2023
+
+ESTOQUE - 30 
+
+PAÍS - Argentina 
+`);
+
+
+console.log(`Viejo Feo Reserva Pinot Noir Rosé 2024:
+TIPO - tinto
+
+SAFRA - 2024
+
+ESTOQUE - 50 
+
+PAÍS - Chile`
+);
+
