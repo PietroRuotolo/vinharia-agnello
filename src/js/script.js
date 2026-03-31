@@ -1,6 +1,6 @@
 //Cadastro do usário
 let nome = prompt("Insira seu nome: ");
-let estado = prompt("Insira o seu estado: ")
+let estado = prompt("Insira o seu estado: ");
 alert(`Cadastro realizado!\nSeja bem vindo ${nome}, Veja os detalhes no console.`);
 
 console.log(`Olá ${nome}, esses são os nossos vinhos disponíveis para o estado de ${estado}: `);
